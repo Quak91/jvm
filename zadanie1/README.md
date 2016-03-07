@@ -1,0 +1,3 @@
+## JVM - zadanie 1
+Program działa w nieskończonej pętli, w której inicjalizuje tablicę bajtów. W każdym przebiegu pętli początkowa wielkość tablicy jest zwiększana o 50MB.
+Program kończy działanie wyjątkiem OutOfMemoryError, ponieważ w pewnym momencie próbuje dodać zbyt wiele danych do sterty maszyny wirtualnej. W moim przypadku program kończył działanie przy próbie inicjalizacji tablicy o wielkości 1400MB.
